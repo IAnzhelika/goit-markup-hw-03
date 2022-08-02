@@ -55,7 +55,13 @@ text-decoration: none;
 color: inherit;
 }
 
- 
+ .nav-container{
+ display: flex;
+ }
+ .containerlink{
+  display: flex;
+ }
+
 
  .button{
     border: none;
@@ -69,19 +75,27 @@ color: inherit;
 
  /*header*/
  .header{
-
+ 
  background-color: var(--main-light-color) 
  ;
  border-bottom: 1px solid var(--secondary-font-color) ;
  
 }
  .logo{
+
   font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
 
     color: var(--thirty-font-color);
    
+ }
+ .logo{
+  padding-left: 215px;
+  margin-right: 93px;
+ }
+ .nav-container{
+  align-items: center;
  }
  .nav-link:hover,
   .nav-link:focus{
@@ -101,12 +115,26 @@ color: inherit;
         color:var(--main-font-color);
         text-decoration: none;
  }
+ .container{
+  
+ }
+ .auth-nav{
+  display: flex;
+  margin-left: auto;
+  
+  
+ }
+ .auth-nav.container-item{
+  padding-right: 50px;
+ }
  .adresslink{
+  display: block;
   color: var(--secondary-font-color);
   font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
    text-decoration: none;
+   display: flex;
  }
 .adresslink:hover,
 .adresslink:focus{
@@ -114,7 +142,10 @@ color: inherit;
     list-style: none;
     text-decoration: none;
 }
-
+ .container-item{
+  
+  padding-right: 50px;
+ }
  /*main content*/
  *{
    
