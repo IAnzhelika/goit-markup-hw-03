@@ -32,6 +32,7 @@ body {
  /*Global section*/
  .section{
     background-color:var(--main-light-color);
+
  }
 
     .section-title{
@@ -44,7 +45,7 @@ body {
  
 .container{
     
-    width: 1200px;
+    width: 1600px;
     margin-left:auto;
     margin-right:auto ;
     outline: 0.5pc solid #fff;
@@ -75,14 +76,18 @@ color: inherit;
 
  /*header*/
  .header{
- 
- background-color: var(--main-light-color) 
- ;
- border-bottom: 1px solid var(--secondary-font-color) ;
- 
+width: 1600px;
+ }
+  .container{
+   display: block;
+  
+  background-color: var(--main-light-color);
+  border-bottom: 1px solid var(--secondary-font-color);
+  width: 1600px;
+  height: 80px;
 }
  .logo{
-
+ padding-left: 215px;
   font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
@@ -115,9 +120,7 @@ color: inherit;
         color:var(--main-font-color);
         text-decoration: none;
  }
- .container{
-  
- }
+ 
  .auth-nav{
   display: flex;
   margin-left: auto;
@@ -147,21 +150,43 @@ color: inherit;
   padding-right: 50px;
  }
  /*main content*/
+    
  *{
    
     box-sizing: border-box;
  }
+ 
   .section1{
+    
+  
     background: var(--border-color);
+    width: 1600px;
+    
+  }
+  .heroitem{
+    
+    margin-left: 452px;
+    
+   width: 696px;
+    height: 120px;
+   padding-top: auto;
+    height: 600px;
+    text-align: center
+   
   }
   .section1title{
+        padding-top: 200px;
+         
+      
       font-weight: 900;
         font-size: 44px;
         line-height: 1,36;
         color:var(--main-light-color);
         text-transform: uppercase;
-  }
+         
+          }
   .sectionbutton{
+   
     background: var(--thirty-font-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
@@ -217,8 +242,16 @@ color: inherit;
 
   .section2{
     background: var(--main-light-color);
+    
   }
-
+   .test-container{
+    margin-top: 94px;
+    margin-left: 215px;
+    width: 1200px;
+    padding: auto;
+    width: 1170px;
+      height: 101px;
+   }
   
    .visually-hidden {
         position: absolute !important;
@@ -230,6 +263,14 @@ color: inherit;
         height: 1px !important;
         width: 1px !important;
         overflow: hidden;
+    }
+    .containers{
+      display: flex;
+     
+    }
+    .containers.container-item{
+    width: 270px;
+    padding-right: 30px;
     }
     .specialwork{
       font-weight: 700;
@@ -244,18 +285,73 @@ color: inherit;
         line-height: 1.71;
         color: var(--secondary-font-color);
     }
+    /*section3*/
     .section3{
+      margin-left: 215px;
+      margin-right: 215px;
+        width: 1170px;
       background: var(--main-light-color);
+     
+      justify-content: center;
+      
+       
+      
+    }
+    .workcompanys{
+      
+      padding-top: 94px;
+      
     }
     .workcompany{
+      
       font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         color: var(--main-font-color);
+        text-align: center;
     }
+    .workcontsiners{
+      
+     display: flex;
+     justify-content: center;
+     margin-left: 215px;
+      
+      
+    }
+    .section3.container-item{
+     
+      padding-right: 30px;
+    }
+      .imagecontent{
+        width: 370px;
+        height: 294px;
+        
+      }
+    /*section4*/
   .company{
+    width: 1600px;
     background: var(--card-bg-color);
+    justify-content: center;
   }
+  .company{
+   
+  }
+  .companycontent{
+    
+  }
+  .workcompany{
+   margin-top: 118px;
+   text-align: center;
+
+  
+  }
+  .companycontainer {
+   
+      display: flex;
+       margin-left: 215px;
+       margin-right: 215px;
+  }
+
   .name{
     font-weight: 500;
       font-size: 16px;
@@ -263,9 +359,14 @@ color: inherit;
       color: var(--main-font-color);
   }
   .sectionphoto{
+   
    background-color: var(--main-light-color);
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
+  
+  }
+  .sectionphoto{
+    margin-right: 30px;
   }
     .section6 {
       background: var(--main-light-color);
@@ -297,9 +398,24 @@ color: inherit;
     }
   /*footer*/
   .section5{
+   
+    width: 1600px;
+    height: 252px;
     background: var(--border-color);
+   
   }
-  
+    .contentadress{
+      padding-bottom:  90px;
+    }
+    
+  .adresscontant{
+    padding-top: 20px;
+   
+   
+  }
+  .adress-iteam{
+    padding-bottom: 9px;
+  }
   .linkadress{
     font-style: normal;
     font-weight: 400;
