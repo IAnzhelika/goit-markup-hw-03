@@ -87,6 +87,7 @@ width: 1600px;
   height: 80px;
 }
  .logo{
+ 
  padding-left: 215px;
   font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -148,6 +149,9 @@ width: 1600px;
  .container-item{
   
   padding-right: 50px;
+ }
+ .contentnav{
+  margin-right: 215px;
  }
  /*main content*/
     
@@ -368,8 +372,21 @@ width: 1600px;
   .sectionphoto{
     margin-right: 30px;
   }
+  /*section6*/
     .section6 {
+      
+    width: 1170px;
+      height: 1360px;
       background: var(--main-light-color);
+    }
+    .test-container{
+      margin-top: 94px;
+      
+      display: flex;
+     justify-content: center;
+    }
+    .iteam{
+      padding-right: 8px;
     }
     .progect{
       font-weight: 700;
@@ -383,14 +400,30 @@ width: 1600px;
         line-height: 1.87;
         color: var(--secondary-font-color);
     }
-    .conteiner-port{
-      box-sizing: border-box;
-      background: var(--main-light-color);
-      border: 1px solid var(--barge-bg-color);
-      width: 370px;
-      height: 404px;
-
+    .flexelement{
+      width: 1200px;
+       margin-right: 215px;
     }
+    .contentmenu{
+      
+      width: 1200px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+    }
+      
+    .conteiner-port{
+      width: 370px;
+      height: 400px;
+      box-sizing:border-box;
+      background:var(--main-light-color);
+      border:1px solid var(--barge-bg-color);
+     
+      
+     
+    }
+      
     .port-href{
         text-decoration: none;
           cursor: pointer;
@@ -404,12 +437,13 @@ width: 1600px;
     background: var(--border-color);
    
   }
-    .contentadress{
-      padding-bottom:  90px;
-    }
+  
+    
     
   .adresscontant{
+    
     padding-top: 20px;
+    padding-left: 215px;
    
    
   }
@@ -425,7 +459,11 @@ width: 1600px;
       list-style: none;
       text-decoration: none;
   }
+   .footerlink{
+    padding-top: 60px;
+   }
     .footerlogo {
+      
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
         font-size: 26px;
